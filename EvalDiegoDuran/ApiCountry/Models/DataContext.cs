@@ -12,5 +12,9 @@ namespace ApiCountry.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<ApiCountry.Models.Currency> Currencies { get; set; }
+
+        public System.Data.Entity.DbSet<ApiCountry.Models.Country> Countries { get; set; }
     }
 }

@@ -13,9 +13,9 @@ namespace ApiCountry.Models
         [Required]
         public string Capital { get; set; }
         public int Population { get; set; }
-        public List<double> Latlng { get; set; }
-        public List<string> Timezones { get; set; }
-        public List<Currency> Currencies { get; set; }
+        public double Latlng { get; set; }
+        public string Timezones { get; set; }
+        public Currency Currencies { get; set; }
         public string Flag { get; set; }
     }
 }
